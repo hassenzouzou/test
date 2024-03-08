@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input,
+.quantity-input {
+  @apply border-2 border-blue-950 mt-2 ml-2 rounded-md outline-none p-1 font-bold text-white bg-blue-600
+}
+
+.output,
+.quantity {
+  @apply mt-2 ml-2 font-bold w-72 border border-black p-1 bg-blue-200 rounded
+}
+
+.container {
+  @apply flex flex-col justify-center items-center
+}
